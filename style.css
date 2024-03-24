@@ -1,0 +1,75 @@
+body {
+    background-image: url(blackboard-1644744_1920.png);
+    background-size: cover;
+    transform: translateX(-25%);
+    margin-top: 65px;
+}
+body input {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 600px;
+    margin-top: 150px;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+}
+body .esit {
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 750px;
+    font-size: 75px;
+    color: white;
+}
+body .result {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 1000;
+    color: #fff;
+    margin-top: 241px;
+}
+body .title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    user-select: none;
+    transform: translateY(-30%);
+    margin-top: 15px;
+}
+body .hesapla {
+    position: absolute;
+    z-index: 1000;
+    margin-left: 615px;
+    margin-top: 270px;
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 75px;
+    height: 40px;
+    transition: 0.1s;
+}
+body .hesapla:hover {
+    background-color: blue;
+    color: white;
+}
+body .clear {
+    position: absolute;
+    margin-left: 617px;
+    margin-top: 530px;
+    width: 75px;
+    height: 40px;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.1s;
+    border: none;
+}
+body .clear:hover {
+    transform: scale(1.030);
+}
